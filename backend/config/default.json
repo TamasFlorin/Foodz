@@ -1,0 +1,14 @@
+{
+    "dbConfig": {
+        "host": "mongodb",
+        "database": "foodz_db",
+        "port": 27017
+    },
+    "jwtConfig": {
+        "secret": "",
+        "expiration": 3600
+    },
+    "serverConfig": {
+        "port": 1337
+    }
+}

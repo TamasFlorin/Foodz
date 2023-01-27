@@ -1,0 +1,70 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es2019",
+        "lib": [
+            "es2019",
+            "esnext.asynciterable"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "pretty": true,
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "allowJs": true,
+        "noEmit": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "baseUrl": "src",
+        "paths": {
+            "@routes/*": [
+                "routes/*"
+            ],
+            "@models/*": [
+                "models/*"
+            ],
+            "@services/*": [
+                "services/*"
+            ],
+            "@interfaces/*": [
+                "interfaces/*"
+            ],
+            "@utils/*": [
+                "utils/*"
+            ],
+            "@exceptions/*": [
+                "exceptions/*"
+            ],
+            "@controllers/*": [
+                "controllers/*"
+            ],
+            "@dtos/*": [
+                "dtos/*"
+            ],
+            "@middlewares/*": [
+                "middlewares/*"
+            ],
+            "@configs/*": [
+                "configs/*"
+            ],
+            "@/*": [
+                "*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

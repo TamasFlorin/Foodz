@@ -1,0 +1,13 @@
+# docker volumes
+data/
+
+# misc
+.DS_Store*
+
+# private env info
+.env
+
+# npm
+node_modules
+dist
+logs
